@@ -1,0 +1,50 @@
+.user-name {
+    color: cornflowerblue;
+    font-size: 18pt;
+}
+
+table,
+td {
+    border: 1pt solid #484848;
+    padding: 8pt 20pt;
+    border-collapse: collapse;
+    color: dimgrey;
+    text-align: center;
+}
+
+th {
+    border: 1pt solid #484848;
+    padding: 8pt 20pt;
+    border-collapse: collapse;
+    color: #484848;
+}
+
+.price {
+    text-align: right;
+    color: firebrick;
+}
+
+.title {
+    text-align: center;
+    color: brown;
+}
+
+.maintitle {
+    text-align: center;
+    font-size: 13pt;
+    color: crimson;
+}
+
+.form1 {
+    border: 1pt solid #484848;
+    padding: 8pt 15pt;
+}
+
+.submit {
+    height: 32px;
+    padding: 4px 4px;
+    width: 104px;
+    border-radius: 4px;
+    background-color: #E87476;
+    color: aliceblue
+}

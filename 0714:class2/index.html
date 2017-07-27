@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>第二堂課練習內容</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+    <!-- 相對路徑 -->
+    <img src="img/IMG8843.JPG" alt="直島錢湯" width="100%">
+    <!-- 絕對路徑 -->
+
+    <a href="https://www.google.com.tw/?gfe_rd=cr&ei=fKloWfv-EuX88wf394GIDA#q=直島" target="_blank"><img src="https://unsplash.it/1280/840?image=1070" alt="直島南瓜" width="100%"></a>
+    <img src="https://placehold.it/1280x840" alt="直島南瓜" width="100%">
+
+    <p>Hello <span class="user-name">John</span></p>
+    <div class="news">
+        <h3 class="news-title">SALE : <sup>$</sup>
+            <S>9,000</S> 7,500</h3>
+    </div>
+
+    <ol type="A">
+        <li>這是一個有序清單的項目1</li>
+        <li>這是一個有序清單的項目2</li>
+    </ol>
+
+
+    <ul type="circle">
+        <li>這是一個無序清單列1</li>
+        <li>這是一個無序清單列2</li>
+        <li>這是一個無序清單列3</li>
+        <li>這是一個無序清單列4</li>
+        <li>這是一個無序清單列5</li>
+    </ul>
+
+    <table>
+        <tr>
+            <td>item1</td>
+            <td>item2</td>
+            <td>item3</td>
+            <td>item4</td>
+        </tr>
+        <tr>
+            <td>item1</td>
+            <td>item2</td>
+            <td>item3</td>
+            <td>item4</td>
+        </tr>
+        <tr>
+            <td>item1</td>
+            <td>item2</td>
+            <td>item3</td>
+            <td>item4</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <table>
+        <thead>
+            <tr>
+                <th>品名</th>
+                <th>數量</th>
+                <th>價錢</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>產品Ａ</td>
+                <td>40</td>
+                <td class="price">4,000 TWD</td>
+            </tr>
+            <tr>
+                <td>產品Ｂ</td>
+                <td>24</td>
+                <td class="price">230 TWD</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>合計</td>
+                <td class="price" colspan="2">4,230 TWD</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br>
+    <br>表格小練習
+
+    <table>
+        <tr>
+            <td colspan="2" rowspan="2" class="maintitle">監獄兔 <br>困犯兩難</td>
+            <td colspan="2" class="title">基廉列克</td>
+
+        </tr>
+        <tr>
+            <td>招</td>
+            <td>不招</td>
+        </tr>
+        <tr>
+            <td rowspan="2" class="title">普亭</td>
+            <td>招</td>
+            <td>都關十年</td>
+            <td>死刑，關20年</td>
+        </tr>
+        <tr>
+            <td>不招</td>
+            <td>關20年，死刑</td>
+            <td>無罪釋放</td>
+        </tr>
+    </table>
+    <br><br>表單
+    <div class="form1">
+        <form action="">
+            <label for="">帳號</label>
+            <input type="text" placeholder="ei698704" readonly>
+            <!-- readonly是不能改寫的表格 -->
+            <br><br>
+            <label for="">密碼</label>
+            <input type="password" placeholder="請輸入密碼">
+            <!-- type=password時，文字會被點所取代 -->
+            <br><br><label for="">生日</label>
+            <input type="date">
+            <br><br><label for="">email</label>
+            <input type="text" placeholder="請輸入email">
+            <br><br><label for="">手機號碼</label>
+            <input type="number" placeholder="請輸入手機號碼">
+
+            <!-- 單選題 -->
+            <br><br><label for="">性別</label>
+            <input name="gender" value="A" type="radio">男性
+            <input name="gender" value="B" type="radio">女性
+            <input name="gender" value="C" type="radio">不便透露
+            <!-- 單選題的時候，radio的name屬性要一樣 value是回送的資料內容-->
+
+            <!-- 多選題 -->
+            <br><br><label for="">興趣</label>
+            <input name="like" value="D" type="checkbox">攝影
+            <input name="like" value="E" type="checkbox">購物
+            <input name="like" value="F" type="checkbox">看電影
+            <input name="like" value="G" type="checkbox">聽音樂
+            <br><br><label for="">帳號類型</label>
+            <select name="meal" id="meal">
+    <option value="normal" selected>一般民眾</option>
+    <option value="vegetarian">學生</option>
+    <option value="mikeEggVegetarian">專業人士</option>
+  </select>
+            <br><br><input type="submit" value="送出表單" class="submit">
+            <selector></selector>
+        </form>
+    </div>
+
+</body>
+</html>

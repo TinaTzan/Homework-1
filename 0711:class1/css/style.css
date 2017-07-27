@@ -1,0 +1,36 @@
+.important {
+    color: cornflowerblue;
+    font-size: 20pt;
+}
+
+#title01 {
+    color: crimson;
+    font-size: 15pt;
+}
+
+.word1 {
+    color: #484848;
+    font-size: 12pt;
+}
+
+.btn1 {
+    color: #484848;
+    font-size: 12pt;
+    height: 41px;
+    width: 104px;
+    border-radius: 4px;
+    background-color: #E87476;
+}
+
+h1 {
+    margin: 0 0;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p {
+    margin: 0 0;
+}
